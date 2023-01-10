@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            margin: 0;
+        }
+        #wrapper{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            
+        }
+        @media screen and (max-width:700px) {
+            #wrapper{
+                flex-direction: column;
+                align-items: center;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="imagewrapper">
+            <img src="1.png" alt="">
+        </div>
+        <div id="textwrapper">
+            <h1>Header</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Minima ducimus laudantium debitis cum error eos quas inventore velit odit cumque adipisci molestias temporibus fugiat tempore, 
+                dolore similique ipsum qui incidunt.</p>
+        </div>
+    </div>
+    
+</body>
+</html>

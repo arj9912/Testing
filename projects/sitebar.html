@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+    <title>Sidebar</title>
+    <style>
+        html,body {
+            height: 100vh;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            padding: 0;
+        }
+        .sidebar {
+            width: 100%;
+
+        }
+
+        .wrapper {
+            position: fixed;
+            left: 0;
+            width: 20%;
+            height: 100vh;
+            background-color: lightskyblue;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a{
+            text-decoration: none;
+            font-size: 22px;
+            color:white;
+            transition: all 0.4s ease;
+        }
+        
+        a:hover {
+
+            color: black;
+        }
+        h1 {
+            
+            font-size: 45px;
+            /* font-style: italic; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="wrapper">
+            <h1 style="text-align: center; color: white;">Arjun Dhami</h1>
+          <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+            <li>
+                <a href="">Skills</a>
+            </li>
+            <li>
+                <a href="">Portfolio</a>
+            </li>
+          </ul>  
+        </div>
+    </div>
+</body>
+</html>
